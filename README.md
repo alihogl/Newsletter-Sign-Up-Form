@@ -1,5 +1,5 @@
 # Newsletter Sign-Up Form Responsive Template 
-- This challange is from https://www.frontendmentor.io/challanges
+- This challange is from https://www.frontendmentor.io/challenges
 - Responsive Subscribe Form <br>
 - Created by using html, css(scss), javascript.
 - All screenshots <a href="https://github.com/alihogl/Newsletter-Sign-Up-Form/tree/main/assets/screenshot">Here </a>
