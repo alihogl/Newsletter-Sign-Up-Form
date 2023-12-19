@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-weight: 700;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box !important;
+  font-family: 'Roboto';
+}
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: hsl(234, 29%, 20%);
+}
+
+.input-error {
+  color: hsl(4, 100%, 67%) !important;
+  border: 1px solid hsl(4, 100%, 67%);
+}
+
+.inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner .success-box {
+  max-width: 400px;
+  padding: 50px 50px !important;
+  align-items: center !important;
+  border-radius: 18px !important;
+}
+.inner .box {
+  padding: 20px;
+  border-radius: 25px;
+  display: flex;
+  background-color: hsl(0, 0%, 100%);
+}
+.inner .box .left-area {
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.inner .box .left-area .email-area {
+  display: flex;
+}
+.inner .box .left-area .email-area .e-mail {
+  margin-top: 30px;
+  color: hsl(234, 29%, 20%);
+  font-weight: 700;
+  font-size: 14px;
+}
+.inner .box .left-area .email-area .error {
+  margin-left: auto;
+  margin-top: 30px;
+  font-size: 14px;
+  color: hsl(4, 100%, 67%);
+}
+.inner .box .left-area form {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.inner .box .left-area form input, .inner .box .left-area form button, .inner .box .left-area form .dismiss-btn {
+  height: 50px;
+  border-radius: 8px;
+  padding: 15px;
+}
+.inner .box .left-area form input {
+  color: hsl(234, 29%, 20%);
+  outline: none;
+}
+.inner .box .left-area form button, .inner .box .left-area form .dismiss-btn {
+  margin-top: 15px;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.inner .box .left-area form button:hover, .inner .box .left-area form .dismiss-btn:hover {
+  background-image: linear-gradient(to right, #FF527B, hsl(4, 100%, 67%));
+}
+.inner .box .left-area .content {
+  max-width: 320px;
+}
+.inner .box .left-area .content .title {
+  color: hsl(234, 29%, 20%);
+  font-size: 50px;
+  font-weight: 700;
+}
+.inner .box .left-area .content .info {
+  margin-top: 20px;
+  font-size: 20px;
+  color: hsl(235, 18%, 26%);
+}
+.inner .box .left-area .content .advantages {
+  margin-top: 20px;
+}
+.inner .box .left-area .content .advantages div {
+  color: hsl(235, 18%, 26%);
+}
+.inner .box .left-area .content .advantages .list {
+  margin-top: 7px;
+  display: flex;
+}
+.inner .box .left-area .content .advantages .list div:nth-child(2) {
+  margin-left: 10px;
+}
+.inner .box .image-area img {
+  height: 500px;
+}
+.inner .box .success-title {
+  color: hsl(234, 29%, 20%);
+  font-size: 40px;
+  font-weight: 700;
+}
+.inner .box .success-info {
+  margin: 20px 0px 20px 0;
+  color: hsl(234, 29%, 20%);
+  font-size: 17px;
+}
+.inner .box .dismiss-btn button {
+  background-color: hsl(234, 29%, 20%);
+  height: 50px;
+  border-radius: 8px;
+  padding: 15px;
+  color: white;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.inner .box .dismiss-btn button:hover {
+  background-image: linear-gradient(to right, #FF527B, hsl(4, 100%, 67%));
+}
+
+@media (max-width: 760px) {
+  .inner {
+    height: auto;
+  }
+  .inner .box {
+    flex-direction: column !important;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 0%;
+  }
+  .inner .box .image-area {
+    order: 1;
+    padding: 0;
+    width: 100%;
+  }
+  .inner .box .image-area img {
+    height: 200px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 0%;
+       object-position: 50% 0%;
+  }
+  .inner .box .left-area {
+    margin-top: 50;
+    order: 2;
+  }
+  .inner .box .left-area .content .title {
+    font-size: 30px;
+  }
+  .inner .box .left-area .content .info {
+    font-size: 20px;
+  }
+  .inner .box .left-area .form form .btn {
+    margin-top: 40px !important;
+  }
+}/*# sourceMappingURL=main.css.map */
