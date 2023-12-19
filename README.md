@@ -6,7 +6,7 @@
 # Pages : 
 Desktop Display
 <br>
-![desktop](https://github.com/alihogl/Newsletter-Sign-Up-Form/assets/153857097/2ee246cd-e519-47cf-8969-4174bf5be6c4)
+![desktop](https://github.com/alihogl/Newsletter-Sign-Up-Form/assets/153857097/b51eeaa3-2c63-4db7-950c-49c4d0832a91)
 <br>
 Mobile Display (760px)
 <br>
